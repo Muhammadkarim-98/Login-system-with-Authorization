@@ -1,0 +1,11 @@
+extends base
+
+block content 
+  .container(style="justify-content: center; flex-direction: column")
+    h1 You are logged in !!! 
+    h4(style="margin-top: 10px") uzbekdev98@yahoo.com
+    form(method="get" action="/loggedOut")
+      button.button.login__submit(type="submit" style="width: 100%; display: inline-block")
+        span.button__text Log Out
+      
+    h3(style="position: absolute; top: 94%; left: 82%; right: 0; bottom: 0; display: inline-block") Created By uzbekDev98
