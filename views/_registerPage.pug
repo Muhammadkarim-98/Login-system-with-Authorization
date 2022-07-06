@@ -4,18 +4,19 @@ block content
   .container
     .screen
       .screen__content
-        form.login(action="/register" method="POST" )
+        h1(style="position: absolute; top: 17%; left: 8%; color: green") Sign Up
+        form.login(action="/register" method="POST")
           .login__field
             i.login__icon.fas.fa-user 
-            input(type="email" class='login__input' placeholder='User name / Email' name="email")
+            input(type="email" class='login__input' placeholder='Enter your email' name="email")
           .login__field
             i.login__icon.fas.fa-lock 
             input(type="password" class='login__input' placeholder='Password' name="password")
           button.button.login__submit(type="submit")
-            span.button__text Log In Now
+            span.button__text Sign Up 
             i.button__icon.fas.fa-chevron-right
         .social-login
-          h3 log in via
+          h3 log in via 
           .social-icons
             a.social-login__icon.fab.fa-instagram(href="https://www.instagram.com/")
             a.social-login__icon.fab.fa-facebook(href="https://www.facebook.com/")
@@ -26,3 +27,4 @@ block content
         span.screen__background__shape.screen__background__shape2
         span.screen__background__shape.screen__background__shape1
     h3(style="position: absolute; top: 94%; left: 82%; right: 0; bottom: 0; display: inline-block") Created By uzbekDev98        
+

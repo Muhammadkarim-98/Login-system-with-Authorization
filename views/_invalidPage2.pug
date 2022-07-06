@@ -1,0 +1,10 @@
+extends base
+
+block content 
+  .container(style="justify-content: center; flex-direction: column")
+    h1 #{error} 
+    form
+      button.button.login__submit(type="button" style="width: 100%; display: inline-block" onclick="history.back(-1)")
+        span.button__text Try Again
+        h3(style="position: absolute; top: 94%; left: 82%; right: 0; bottom: 0; display: inline-block; color: black") Created By uzbekDev98    
+      

@@ -2,9 +2,9 @@ extends base
 
 block content 
   .container(style="justify-content: center; flex-direction: column")
-    h1 You are logged in !!! 
-    h4(style="margin-top: 10px") uzbekdev98@yahoo.com
-    form(method="get" action="/loggedOut")
+    h1 You are successfully logged in !!! 
+    h4(style="margin-top: 10px") #{email}
+    form(action="/" method="GET")
       button.button.login__submit(type="submit" style="width: 100%; display: inline-block")
         span.button__text Log Out
       

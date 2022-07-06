@@ -8,42 +8,4 @@ html
     link(rel='stylesheet', href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css")
 
   body 
-        
     block content 
-      .container
-        .screen
-          .screen__content
-            form.login(action="/login" method="POST" )
-              .login__field
-                i.login__icon.fas.fa-user 
-                input(type="email" class='login__input' placeholder='User name / Email' name="email")
-              .login__field
-                i.login__icon.fas.fa-lock 
-                input(type="password" class='login__input' placeholder='Password' name="password")
-              button.button.login__submit(type="submit")
-                span.button__text Log In Now
-                i.button__icon.fas.fa-chevron-right
-            .social-login
-              h3 log in via
-              .social-icons
-                a.social-login__icon.fab.fa-instagram(href="#")
-                a.social-login__icon.fab.fa-facebook(href="#")
-                a.social-login__icon.fab.fa-twitter(href="#")
-          .screen__background
-            span.screen__background__shape.screen__background__shape4
-            span.screen__background__shape.screen__background__shape3
-            span.screen__background__shape.screen__background__shape2
-            span.screen__background__shape.screen__background__shape1
-            
-          
-      
-      
-      
-      
-        //- .screen
-          //- .screen__background
-          //-   span.screen__background__shape.screen__background__shape4
-          //-   span.screen__background__shape.screen__background__shape3
-          //-   span.screen__background__shape.screen__background__shape2
-          //-   span.screen__background__shape.screen__background__shape1
-  
