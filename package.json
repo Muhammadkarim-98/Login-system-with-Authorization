@@ -1,5 +1,5 @@
 {
-    "name": "login-system",
+    "name": "login-system 123",
     "version": "1.0.0",
     "description": "Login app",
     "main": "server.js",
@@ -10,7 +10,7 @@
     "keywords": [
         "anaxtar777"
     ],
-    "author": "uzbekdev",
+    "author": "uzbekdev1998",
     "license": "ISC",
     "dependencies": {
         "bcrypt": "^5.0.1",
